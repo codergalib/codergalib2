@@ -1,0 +1,150 @@
+
+ul {
+    list-style: none;
+    display: flex;
+}
+li {
+    padding: 0 46px;
+    margin: 40vh auto;
+}
+.btn-1 {
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 900;
+    height: 75px;
+    width: 250px;
+    background: #7158e2;
+    display: inline-block;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.btn-1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0;
+    background: black;
+    width: 0;
+    height: 100%;
+    border-radius: 50px;
+   z-index: -1;
+   transition: .7s;
+}
+a:hover::before{
+    width: 100%;
+}
+
+
+
+
+.btn-2{
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 900;
+    height: 75px;
+    width: 250px;
+    background: #7158e2;
+    display: inline-block;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    
+    
+}
+
+.btn-2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0;
+    background: black;
+    width: 0;
+    height: 100%;
+    border-radius: 50px;
+    z-index: -1;
+   transition: .7s;
+}
+.btn-2:hover::before{
+    width: 100%;
+}
+
+
+
+a {
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 900;
+    height: 75px;
+    width: 250px;
+    background: #7158e2;
+    display: inline-block;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0;
+    background: black;
+    width: 0;
+    height: 100%;
+    border-radius: 50px;
+   z-index: -1;
+   transition: .7s;
+}
+a:hover::before{
+    width: 100%;
+}
+
+a {
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+    font-style: italic;
+    text-decoration: none;
+    font-weight: 900;
+    height: 75px;
+    width: 250px;
+    background: #7158e2;
+    display: inline-block;
+    text-align: center;
+    line-height: 75px;
+    border-radius: 50px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left:0;
+    background: black;
+    width: 0;
+    height: 100%;
+    border-radius: 50px;
+   z-index: -1;
+   transition: .7s;
+}
+a:hover::before{
+    width: 100%;
+}
